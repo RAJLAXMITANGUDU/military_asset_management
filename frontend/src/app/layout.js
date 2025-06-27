@@ -1,6 +1,7 @@
-import './globals.css'
-import ReduxProvider from '@/store/ReduxProvider'
-import Navbar from '@/components/Navbar'
+import './globals.css';
+
+import NavbarWrapper from '@/components/NavWrapper';
+import ReduxProvider from '@/store/ReduxProvider';
 
 export const metadata = {
   title: 'Military Asset Mgmt',
@@ -12,11 +13,10 @@ export default function RootLayout({ children }) {
     <html lang="en">
       <body>
         <ReduxProvider>
-          <Navbar />
+          <NavbarWrapper/>
           <main className="min-h-screen bg-gray-50">{children}</main>
         </ReduxProvider>
       </body>
     </html>
   )
-
 }

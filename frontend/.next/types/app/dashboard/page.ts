@@ -1,4 +1,4 @@
-// File: C:\Users\rajla\OneDrive\Desktop\military_asset_management\frontend\src\app\dashboard\page.js
+// File: C:\Users\rajla\OneDrive\Desktop\military_asset_management\frontend\src\app\dashboard\page.jsx
 import * as entry from '../../../../src/app/dashboard/page.js'
 import type { ResolvingMetadata, ResolvingViewport } from 'next/dist/lib/metadata/types/metadata-interface.js'
 

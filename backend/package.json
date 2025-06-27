@@ -1,20 +1,29 @@
 {
-  "name": "backend",
-  "version": "1.0.0",
-  "type": "module",
+  "name": "frontend",
+  "version": "0.1.0",
+  "private": true,
   "scripts": {
-    "start": "node src/index.js",
-    "dev": "nodemon src/index.js"
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint"
   },
   "dependencies": {
-    "bcryptjs": "^3.0.2",
-    "dotenv": "^16.5.0",
-    "express": "^5.1.0",
-    "jsonwebtoken": "^9.0.2",
-    "mongoose": "^8.15.1",
-    "morgan": "^1.10.0"
+    "@reduxjs/toolkit": "^2.8.2",
+    "axios": "^1.10.0",
+    "date-fns": "^4.1.0",
+    "jwt-decode": "^4.0.0",
+    "next": "15.3.4",
+    "react": "^19.0.0",
+    "react-dom": "^19.0.0",
+    "react-redux": "^9.2.0",
+    "swr": "^2.3.3"
   },
   "devDependencies": {
-    "nodemon": "^3.1.10"
+    "@eslint/eslintrc": "^3",
+    "@tailwindcss/postcss": "^4",
+    "eslint": "^9",
+    "eslint-config-next": "15.3.4",
+    "tailwindcss": "^4"
   }
 }
